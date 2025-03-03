@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+
+
+body {
+    font-family: Michroma, serif;
+    background: radial-gradient(#eeffb3 0%, #68cfcd 100%);
+}
+
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(122, 122, 122);
+}
+
+.navbar-brand img {
+    width: 35px;
+}
+
+.navbar-toggler {
+    background-color: rgb(142, 144, 145);
+}
+
+
+.sidebar {
+    color: rgb(79, 160, 133);
+    background: radial-gradient(#eeffb3 0%, #68cac8 100%);
+}
+
+.card {
+    background: radial-gradient(#eeffb3 0%, #68cac8 100%);
+    color: burlywood;
+}
+.card a {
+    text-decoration: none;
+    color: #68cfcd;
+}
+
+.slide-text,
+.footer-text {
+    color: blue;
+    margin: auto auto;
+}
+
+footer {
+    background: radial-gradient(#eeffb3 0%, #68cfcd 100%);
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
